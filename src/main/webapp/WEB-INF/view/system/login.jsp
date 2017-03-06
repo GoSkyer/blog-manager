@@ -1,6 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="ctx" value="${pageContext.request.contextPath}"/>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/view/base/base.jsp" %>
 <html>
 <head>
 
@@ -16,9 +15,9 @@
     <script type="text/javascript" src="${ctx}/static/bootstrap/js/bootstrap.js"></script>
 
 </head>
-<body style="background-color: #ac2925">
+<body style="background-color: #e2e2e2">
 
-<div class="container" style="position: absolute;top:50%;left:50%;transform:translate(-50%, -50%);">
+<div class="container" style="position: absolute;top:40%;left:50%;transform:translate(-50%, -50%);">
 
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
@@ -42,7 +41,9 @@
                                 </label>
                             </div>
                             <!-- Change this to a button or input when using this as a form -->
-                            <button type="submit" href="index.html" value="" class="btn btn-lg btn-success btn-block">登录</button>
+                            <button type="submit" href="index.html" value="" class="btn btn-lg btn-success btn-block">
+                                登录
+                            </button>
                         </fieldset>
                     </form>
 
